@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Poppins:wght@400;500&family=Roboto&family=Satisfy&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0e3e3;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+/* top players style */
+.section-title{
+    color: blue;
+    font-size: 24px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
